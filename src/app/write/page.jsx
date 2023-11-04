@@ -2,6 +2,7 @@ import Image from 'next/image'
 import styles from './writePage.module.css'
 import { useState } from 'react'
 
+
 const WritePage = () => {
   const[open,setOpen] = useState(false)
   return (
